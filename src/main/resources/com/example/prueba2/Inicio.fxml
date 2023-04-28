@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prueba2.Carga_Pantalla">
+   <children>
+      <Label layoutX="103.0" layoutY="70.0" prefHeight="25.0" prefWidth="60.0" text="Cliente">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="261.0" layoutY="73.0" text="Administrador">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button layoutX="96.0" layoutY="304.0" mnemonicParsing="false" onAction="#Regis" text="Registrarse" />
+      <Button layoutX="109.0" layoutY="251.0" mnemonicParsing="false" onAction="#Menu" text="Entrar" />
+      <Button layoutX="281.0" layoutY="251.0" mnemonicParsing="false" text="Entrar" />
+      <TextField layoutX="58.0" layoutY="146.0" />
+      <TextField layoutX="231.0" layoutY="146.0" />
+      <Label layoutX="84.0" layoutY="125.0" text="Correo electronico" />
+      <Label layoutX="103.0" layoutY="192.0" text="Contraseña" />
+      <Label layoutX="246.0" layoutY="192.0" text="Clave de Administrador" />
+      <Label layoutX="261.0" layoutY="125.0" text="Correo electronico" />
+      <PasswordField layoutX="59.0" layoutY="213.0" />
+      <PasswordField layoutX="230.0" layoutY="213.0" />
+   </children>
+</Pane>
