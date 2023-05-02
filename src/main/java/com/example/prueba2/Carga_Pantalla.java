@@ -19,9 +19,9 @@ import java.util.ResourceBundle;
 public class Carga_Pantalla implements Initializable {
 
 @FXML
-private Button Registro;
+private Button btnRegis;
 @FXML
-private Button Entrar;
+private Button btnEntrar;
 
 
 @FXML
@@ -72,7 +72,19 @@ private Button Entrar;
             alert.setTitle("Error");
             alert.setContentText(ex.getMessage());
             alert.showAndWait();
-        }}
+        }
+}
+    @FXML
+    private void Salir (ActionEvent event){
+        System.out.println("Gracias por pasarse por nuestra aplicación");
+        System.exit(0);
+    }
+
+    @FXML
+    private void Volver (ActionEvent event){
+
+
+    }
 
 
     @Override
