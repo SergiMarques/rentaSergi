@@ -25,7 +25,7 @@
             <TableColumn prefWidth="145.0" text="Precio Semanal" />
         </columns>
       </TableView>
-      <Button layoutX="440.0" layoutY="361.0" mnemonicParsing="false" text="Rentar" />
+      <Button fx:id="btnRentar" layoutX="440.0" layoutY="361.0" mnemonicParsing="false" onAction="#Rentar" text="Rentar" />
       <Button fx:id="btnSalir" layoutX="562.0" layoutY="14.0" mnemonicParsing="false" onAction="#Salir" text="X" textFill="RED">
          <font>
             <Font name="System Bold" size="13.0" />

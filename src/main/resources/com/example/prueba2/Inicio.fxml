@@ -17,13 +17,11 @@
       <Button fx:id="btnRegis" layoutX="96.0" layoutY="304.0" mnemonicParsing="false" onAction="#Regis" text="Registrarse" />
       <Button fx:id="btnMenu" layoutX="109.0" layoutY="251.0" mnemonicParsing="false" onAction="#Menu" text="Entrar" />
       <Button layoutX="281.0" layoutY="251.0" mnemonicParsing="false" text="Entrar" />
-      <TextField layoutX="58.0" layoutY="146.0" />
+      <TextField fx:id="txtCorreo" layoutX="58.0" layoutY="146.0" promptText="Correo electronico" />
       <TextField layoutX="231.0" layoutY="146.0" />
-      <Label layoutX="84.0" layoutY="125.0" text="Correo electronico" />
-      <Label layoutX="103.0" layoutY="192.0" text="Contraseña" />
       <Label layoutX="246.0" layoutY="192.0" text="Clave de Administrador" />
       <Label layoutX="261.0" layoutY="125.0" text="Correo electronico" />
-      <PasswordField layoutX="59.0" layoutY="213.0" />
+      <PasswordField fx:id="txtContraseña" layoutX="59.0" layoutY="213.0" promptText="Contraseña" />
       <PasswordField layoutX="230.0" layoutY="213.0" />
       <Button fx:id="btnSalir" layoutX="373.0" layoutY="14.0" mnemonicParsing="false" onAction="#Salir" text="X" textFill="#e30707">
          <font>
