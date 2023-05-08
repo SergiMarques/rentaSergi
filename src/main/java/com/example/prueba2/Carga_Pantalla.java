@@ -20,6 +20,7 @@ import java.util.ResourceBundle;
 
 public class Carga_Pantalla implements Initializable {
 
+    private Stage stage;
 @FXML
 private TextField txtCorreo;
 @FXML
@@ -68,6 +69,7 @@ private TextField txtContraseña;
             stage.initModality(Modality.APPLICATION_MODAL);
             stage.setScene(scene);
             stage.showAndWait();
+            stage.close();
         }catch (IOException ex) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText(null);
@@ -100,6 +102,7 @@ private TextField txtContraseña;
             stage.initModality(Modality.APPLICATION_MODAL);
             stage.setScene(scene);
             stage.showAndWait();
+            this.stage.close();
         } catch (IOException ex) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText(null);
